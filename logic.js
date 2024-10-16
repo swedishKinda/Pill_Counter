@@ -1,19 +1,29 @@
 var count = 0;
 
-$("#update-up").click(function () {
+$(document).on('click', '#update-up', function() {
   count++;
   $("#counter").html("My current count is: "+ count);
 });
 
-$("#update-down").click(function () {
+$(document).on('click', '#update-down', function() {
   count--;
   $("#counter").html("My current count is: "+ count);
 });
 
+// $("#update-up").click(function () {
+//   count++;
+//   $("#counter").html("My current count is: "+ count);
+// });
+
+// $("#update-down").click(function () {
+//   count--;
+//   $("#counter").html("My current count is: "+ count);
+// });
+
 $(document).ready(function () {
   $("#button").click(function () {
     var toAdd = $("input[name=ListItem]").val();
-    $("ol").append("<li>" + toAdd + "<div id='counter-box'>" + "<button id='update-up'>" + "</button>" + "<button id='update-down'>" + "</button>" + "<div id='counter'>" + "</div>" + "</div>" + "<br>" + "<div>" + "current count: " + count + "</div>" + "</li>");
+    $("ol").append("<li>" + toAdd + "<div id='counter-box'>" + "<button id='update-down'>" + "-" + "</button>" + "<button id='update-up'>" + "+" + "</button>" + "<div id='counter'>" + "</div>" + "</div>" + "</li>");
   });
 
   //  $("input[name=ListItem]").keyup(function(event){
