@@ -40,8 +40,10 @@ $(document).on("click", "#update-up-2", function () {
 });
 
 $(document).on("click", "#update-down-2", function () {
-  count2--;
-  $("#counter-2").html("My current count is: " + count2);
+  if (count2 > 0) {
+    count2--;
+    $("#counter-2").html("My current count is: " + count2);
+  }
 });
 
 $(document).on("click", "#update-up-3", function () {
@@ -50,8 +52,10 @@ $(document).on("click", "#update-up-3", function () {
 });
 
 $(document).on("click", "#update-down-3", function () {
-  count3--;
-  $("#counter-3").html("My current count is: " + count3);
+  if (count3 > 0) {
+    count3--;
+    $("#counter-3").html("My current count is: " + count3);
+  }
 });
 
 $(document).on("click", "#update-up-4", function () {
@@ -60,8 +64,10 @@ $(document).on("click", "#update-up-4", function () {
 });
 
 $(document).on("click", "#update-down-4", function () {
-  count4--;
-  $("#counter-4").html("My current count is: " + count4);
+  if (count4 > 0) {
+    count4--;
+    $("#counter-4").html("My current count is: " + count4);
+  }
 });
 
 $(document).on("click", "#update-up-5", function () {
@@ -70,8 +76,10 @@ $(document).on("click", "#update-up-5", function () {
 });
 
 $(document).on("click", "#update-down-5", function () {
-  count5--;
-  $("#counter-5").html("My current count is: " + count5);
+  if (count5 > 0) {
+    count5--;
+    $("#counter-5").html("My current count is: " + count5);
+  }
 });
 
 $(document).on("click", "#update-up-6", function () {
@@ -80,8 +88,10 @@ $(document).on("click", "#update-up-6", function () {
 });
 
 $(document).on("click", "#update-down-6", function () {
-  count6--;
-  $("#counter-6").html("My current count is: " + count6);
+  if (count6 > 0) {
+    count6--;
+    $("#counter-6").html("My current count is: " + count6);
+  }
 });
 
 $(document).on("click", "#update-up-7", function () {
@@ -90,8 +100,10 @@ $(document).on("click", "#update-up-7", function () {
 });
 
 $(document).on("click", "#update-down-7", function () {
-  count7--;
-  $("#counter-7").html("My current count is: " + count7);
+  if (count7 > 0) {
+    count7--;
+    $("#counter-7").html("My current count is: " + count7);
+  }
 });
 
 $(document).on("click", "#update-up-8", function () {
@@ -100,8 +112,10 @@ $(document).on("click", "#update-up-8", function () {
 });
 
 $(document).on("click", "#update-down-8", function () {
-  count8--;
-  $("#counter-8").html("My current count is: " + count8);
+  if (count8 > 0) {
+    count8--;
+    $("#counter-8").html("My current count is: " + count8);
+  }
 });
 
 $(document).on("click", "#update-up-9", function () {
@@ -110,8 +124,10 @@ $(document).on("click", "#update-up-9", function () {
 });
 
 $(document).on("click", "#update-down-9", function () {
-  count9--;
-  $("#counter-9").html("My current count is: " + count9);
+  if (count9 > 0) {
+    count9--;
+    $("#counter-9").html("My current count is: " + count9);
+  }
 });
 
 $(document).on("click", "#update-up-10", function () {
@@ -120,8 +136,10 @@ $(document).on("click", "#update-up-10", function () {
 });
 
 $(document).on("click", "#update-down-10", function () {
-  count10--;
-  $("#counter-10").html("My current count is: " + count10);
+  if (count10 > 0) {
+    count10--;
+    $("#counter-10").html("My current count is: " + count10);
+  }
 });
 
 $(document).on("click", "#update-up-11", function () {
@@ -130,8 +148,10 @@ $(document).on("click", "#update-up-11", function () {
 });
 
 $(document).on("click", "#update-down-11", function () {
-  count11--;
-  $("#counter-11").html("My current count is: " + count11);
+  if (count11 > 0) {
+    count11--;
+    $("#counter-11").html("My current count is: " + count11);
+  }
 });
 
 $(document).on("click", "#update-up-12", function () {
@@ -140,8 +160,10 @@ $(document).on("click", "#update-up-12", function () {
 });
 
 $(document).on("click", "#update-down-12", function () {
-  count12--;
-  $("#counter-12").html("My current count is: " + count12);
+  if (count12 > 0) {
+    count12--;
+    $("#counter-12").html("My current count is: " + count12);
+  }
 });
 
 $(document).on("click", "#update-up-13", function () {
@@ -150,8 +172,10 @@ $(document).on("click", "#update-up-13", function () {
 });
 
 $(document).on("click", "#update-down-13", function () {
-  count13--;
-  $("#counter-13").html("My current count is: " + count13);
+  if (count13 > 0) {
+    count13--;
+    $("#counter-13").html("My current count is: " + count13);
+  }
 });
 
 $(document).on("click", "#update-up-14", function () {
@@ -160,8 +184,10 @@ $(document).on("click", "#update-up-14", function () {
 });
 
 $(document).on("click", "#update-down-14", function () {
-  count14--;
-  $("#counter-14").html("My current count is: " + count14);
+  if (count14 > 0) {
+    count14--;
+    $("#counter-14").html("My current count is: " + count14);
+  }
 });
 
 $(document).on("click", "#update-up-15", function () {
@@ -170,8 +196,10 @@ $(document).on("click", "#update-up-15", function () {
 });
 
 $(document).on("click", "#update-down-15", function () {
-  count15--;
-  $("#counter-15").html("My current count is: " + count15);
+  if (count15 > 0) {
+    count15--;
+    $("#counter-15").html("My current count is: " + count15);
+  }
 });
 
 $(document).on("click", "#update-up-16", function () {
@@ -180,8 +208,10 @@ $(document).on("click", "#update-up-16", function () {
 });
 
 $(document).on("click", "#update-down-16", function () {
-  count16--;
-  $("#counter-16").html("My current count is: " + count16);
+  if (count16 > 0) {
+    count16--;
+    $("#counter-16").html("My current count is: " + count16);
+  }
 });
 
 $(document).on("click", "#update-up-17", function () {
@@ -190,8 +220,10 @@ $(document).on("click", "#update-up-17", function () {
 });
 
 $(document).on("click", "#update-down-17", function () {
-  count17--;
-  $("#counter-17").html("My current count is: " + count17);
+  if (count17 > 0) {
+    count17--;
+    $("#counter-17").html("My current count is: " + count17);
+  }
 });
 
 $(document).on("click", "#update-up-18", function () {
@@ -200,8 +232,10 @@ $(document).on("click", "#update-up-18", function () {
 });
 
 $(document).on("click", "#update-down-18", function () {
-  count18--;
-  $("#counter-18").html("My current count is: " + count18);
+  if (count18 > 0) {
+    count18--;
+    $("#counter-18").html("My current count is: " + count18);
+  }
 });
 
 $(document).on("click", "#update-up-19", function () {
@@ -210,8 +244,10 @@ $(document).on("click", "#update-up-19", function () {
 });
 
 $(document).on("click", "#update-down-19", function () {
-  count19--;
-  $("#counter-19").html("My current count is: " + count19);
+  if (count19 > 0) {
+    count19--;
+    $("#counter-19").html("My current count is: " + count19);
+  }
 });
 
 $(document).on("click", "#update-up-20", function () {
@@ -220,8 +256,10 @@ $(document).on("click", "#update-up-20", function () {
 });
 
 $(document).on("click", "#update-down-20", function () {
-  count20--;
-  $("#counter-20").html("My current count is: " + count20);
+  if (count20 > 0) {
+    count20--;
+    $("#counter-20").html("My current count is: " + count20);
+  }
 });
 
 // $("#update-up").click(function () {
