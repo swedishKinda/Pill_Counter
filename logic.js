@@ -22,6 +22,27 @@ let count20 = 1;
 let counter = 1;
 let counter2 = 1;
 
+$(document).ready(function () {
+  $("#button").click(function () {
+    var toAdd = $("input").val();
+    $("ol").append(
+      "<li>" +
+        toAdd +
+        `<button id="update-down-${counter}">-</button>
+      <button id="update-up-${counter++}">+</button>
+      <div id="counter-${counter2++}"></div>` +
+        "</li>"
+    );
+  });
+
+  $("button").click(function () {
+    const newElement = $("<div>").addClass("item-" + counter);
+    $("#container").append(newElement);
+    counter++;
+  });
+
+});
+
 $(document).on("click", "#update-up-1", function () {
   count1++;
   $("#counter-1").html("My current count is: " + count1);
@@ -261,61 +282,3 @@ $(document).on("click", "#update-down-20", function () {
     $("#counter-20").html("My current count is: " + count20);
   }
 });
-
-// $("#update-up").click(function () {
-//   count++;
-//   $("#counter").html("My current count is: "+ count);
-// });
-
-// $("#update-down").click(function () {
-//   count--;
-//   $("#counter").html("My current count is: "+ count);
-// });
-
-$(document).ready(function () {
-  $("#button").click(function () {
-    var toAdd = $("input").val();
-    $("ol").append(
-      "<li>" +
-        toAdd +
-        `<button id="update-down-${counter}">-</button>
-      <button id="update-up-${counter++}">+</button>
-      <div id="counter-${counter2++}"></div>` +
-        "</li>"
-    );
-  });
-
-  $("button").click(function () {
-    const newElement = $("<div>").addClass("item-" + counter);
-    $("#container").append(newElement);
-    counter++;
-  });
-
-  //  $("input[name=ListItem]").keyup(function(event){
-  //     if(event.keyCode == 13){
-  //       $("#button").click();
-  //     }
-  // });
-});
-
-console.log(count);
-
-// $(document).ready(function() {
-//   // Get the current date
-//   var today = new Date();
-
-//   // Create a key for localStorage based on the date
-//   var localStorageKey = "dailyCounter_" + today.toDateString();
-
-//   // Get the counter value from localStorage or set it to 0 if it doesn't exist
-//   var counter = localStorage.getItem(localStorageKey) || 0;
-
-//   // Display the counter value
-//   $("#daily-counter").text(counter);
-
-//   // Increment the counter on each page load
-//   counter++;
-
-//   // Update the counter in localStorage
-//   localStorage.setItem(localStorageKey, counter);
-// });
