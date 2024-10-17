@@ -40,7 +40,6 @@ $(document).ready(function () {
     $("#container").append(newElement);
     counter++;
   });
-
 });
 
 $(document).on("click", "#update-up-1", function () {
