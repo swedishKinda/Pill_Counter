@@ -1,30 +1,30 @@
-let count1 = 1;
-let count2 = 1;
-let count3 = 1;
-let count4 = 1;
-let count5 = 1;
-let count6 = 1;
-let count7 = 1;
-let count8 = 1;
-let count9 = 1;
-let count10 = 1;
-let count11 = 1;
-let count12 = 1;
-let count13 = 1;
-let count14 = 1;
-let count15 = 1;
-let count16 = 1;
-let count17 = 1;
-let count18 = 1;
-let count19 = 1;
-let count20 = 1;
+let count1 = 0;
+let count2 = 0;
+let count3 = 0;
+let count4 = 0;
+let count5 = 0;
+let count6 = 0;
+let count7 = 0;
+let count8 = 0;
+let count9 = 0;
+let count10 = 0;
+let count11 = 0;
+let count12 = 0;
+let count13 = 0;
+let count14 = 0;
+let count15 = 0;
+let count16 = 0;
+let count17 = 0;
+let count18 = 0;
+let count19 = 0;
+let count20 = 0;
 
 let counter = 1;
 let counter2 = 1;
 
 $(document).ready(function () {
   $("#button").click(function () {
-    var toAdd = $("input").val();
+    const toAdd = $("input").val();
     $("ol").append(
       "<li>" +
         toAdd +
