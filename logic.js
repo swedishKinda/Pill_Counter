@@ -34,13 +34,13 @@ $(document).ready(function () {
         "</li>"
     );
   });
-
-  $("button").click(function () {
-    const newElement = $("<div>").addClass("item-" + counter);
-    $("#container").append(newElement);
-    counter++;
-  });
 });
+
+// $("input").keyup(function (event) {
+//   if (event.keyCode == 13) {
+//     $("#button").click();
+//   }
+// });
 
 $(document).on("click", "#update-up-1", function () {
   count1++;
