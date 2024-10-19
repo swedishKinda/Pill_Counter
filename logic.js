@@ -36,11 +36,11 @@ $(document).ready(function () {
   });
 });
 
-// $("input").keyup(function (event) {
-//   if (event.keyCode == 13) {
-//     $("#button").click();
-//   }
-// });
+$("input").keyup(function (event) {
+  if (event.keyCode == 13) {
+    $("#button").click();
+  }
+});
 
 $(document).on("click", "#update-up-1", function () {
   count1++;
