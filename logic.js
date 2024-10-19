@@ -28,8 +28,8 @@ $(document).ready(function () {
     $("ol").append(
       "<li>" +
         toAdd +
-        `<button id="update-down-${counter}">-</button>
-      <button id="update-up-${counter++}">+</button>
+        `<button class="update-down" id="update-down-${counter}">-</button>
+      <button class="update-up" id="update-up-${counter++}">+</button>
       <div id="counter-${counter2++}"></div>` +
         "</li>"
     );
