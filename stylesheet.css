@@ -22,10 +22,11 @@ input {
 padding: 4px 15px 4px 5px;
 }
 
-button, #button {
+button, #button, #clear {
 display: inline-block;
 background-color:#fc999b;
-color:#ffffff;
+color: #000;
+font-weight: bold;
 border-radius: 5px;
 text-align:center;
 margin-top:2px;
