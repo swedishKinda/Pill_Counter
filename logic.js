@@ -43,6 +43,7 @@ $("#clear").click(function () {
 $("input").keyup(function (event) {
   if (event.keyCode == 13) {
     $("#button").click();
+    $("#clear").click();
   }
 });
 
