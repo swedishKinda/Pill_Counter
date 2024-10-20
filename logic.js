@@ -35,8 +35,20 @@ $(document).ready(function () {
     );
   });
 
+  $("#button").click(function () {
+    $("input").val("");
+  });
+
   $("#clear").click(function () {
     $("input").val("");
+  });
+
+  $("#update-all-up").click(function () {
+    $("button[id^=update-up").click();
+  });
+
+  $("#update-all-down").click(function () {
+    $("button[id^=update-down").click();
   });
 
   $("input").keyup(function (event) {

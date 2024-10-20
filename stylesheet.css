@@ -6,7 +6,7 @@ font: normal normal 13px/16px "Open Sans", sans-serif;
 background: #dfdfdf;
 }
 
-.container{
+.container {
 padding: 20px;
 width: 300px;
 margin: 0 auto;
@@ -18,7 +18,7 @@ input {
 padding: 4px 15px 4px 5px;
 }
 
-button, #button, #clear, .update-up, .update-down {
+button, #button, #clear, .update-up, .update-down, #update-all-down, #update-all-up {
 background-color:#fc999b;
 color: #000;
 font-weight: bold;
@@ -40,7 +40,7 @@ padding: 5px 15px;
 
 button, #button:hover {
 cursor: pointer;
-opacity: .8;}
+}
 
 ol {
   padding-left: 20px;
