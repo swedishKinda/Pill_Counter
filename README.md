@@ -1,5 +1,15 @@
-# Pill_Counter
- 
-This is an app I'm developing to help me keep track of when my Mom needs refills on her prescriptions.
+# Link
 
 https://swedishkinda.github.io/Pill_Counter/
+
+# Problem
+
+Make an app where the user can easily count up their medications.
+
+# Solution
+
+Used the append function in JavaScript to make a list. Then added up and down buttons that are liked to counters.
+
+# Tech
+
+JavaScript, jQuery, Bootstrap, and Flexbox.
