@@ -6,7 +6,7 @@ https://swedishkinda.github.io/Pill_Counter/
 
 Make an app where the user can easily count up their medications.
 
-#Solution
+# Solution
 
 Used the append function in JavaScript to make a list. Then added up and down buttons that are liked to counters.
 
